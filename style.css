@@ -22,11 +22,19 @@
 /* TABLET POTRAIT */
 
 @media (min-width: 768px) {
-	
+	ul#menu-main-menu {
+		float: right;
+	}
 }
 
 /* TABLET HORIZONTAL / DESKTOP */
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
+	
+}
+
+/* DESKTOP */
+
+@media (min-width: 1200px) {
 	
 }
