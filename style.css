@@ -10,6 +10,23 @@
  
 @import url("../bootstrap-four/style.css");
 
-body {
-	background: gray;
+/* MOBILE FIRST */
+
+
+/* MOBILE HORIZONTAL */
+
+@media (min-width: 480px) {
+	
+}
+
+/* TABLET POTRAIT */
+
+@media (min-width: 768px) {
+	
+}
+
+/* TABLET HORIZONTAL / DESKTOP */
+
+@media (min-width: 960px) {
+	
 }
