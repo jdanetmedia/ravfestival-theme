@@ -21,6 +21,9 @@
     ?><p><?php _e( 'Sorry, no posts matched your criteria.', 'bootstrap-four' ); ?></p><?php
   endif;
 ?>
+		<div class="col-md-4">1</div>
+		<div class="col-md-4">2</div>
+		<div class="col-md-4">3</div>
     </div><!-- .col -->
     <div class='col-lg-3'>
       <?php dynamic_sidebar( 'Right Sidebar' ); ?>
