@@ -9,3 +9,7 @@
 */
  
 @import url("../bootstrap-four/style.css");
+
+body {
+	background: gray;
+}
