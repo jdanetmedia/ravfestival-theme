@@ -15,10 +15,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 
 body {
+    font-family: sans-serif;
+    display: none;
 }
 
 #menu {
-    width: 100px;
+    width: 60px;
     height: 200px;
     position: fixed;
     right: 0;
@@ -29,19 +31,35 @@ body {
     #menu #search {
         display: none;
     }
+    #menu li {
+        height: 20px;
+        background-color: #616e7a;
+        margin-bottom: 20px;
+        transition: all 0.5s ease-in-out;
+    }
+    #menu li a {
+        color: transparent;
+        position: relative;
+        top: 2px;
+        text-decoration: none;
+        white-space: nowrap;
+        transition: all 0.5s ease-in-out;
+    }
+    #menu li:hover {
+        transform: translate(-40px);
+        background-color: #95b9cc;
+    }
+    #menu li:hover a {
+        color: black;
+        text-decoration: none;
+        transform: translate(-30px);
+    }
     #menu li a {
         display: block;
     }
-    #menu li {
-        height: 20px;
-        background-color: blue;
-        margin-bottom: 20px;
+    .current-menu-item {
+        background-color: #95b9cc!important;
     }
 
-
-#menu_button:hover #button_bg{
-    transform: translate(80px);
-    transition: all 1s ease-in-out;
-}
 
 

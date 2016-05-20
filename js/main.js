@@ -1,4 +1,6 @@
 $(document).ready(function() {
-    alert("hej");
+    $("body").css("display", "none");
+    $("body").fadeIn(1000);
 });
+
     
