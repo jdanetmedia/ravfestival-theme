@@ -67,7 +67,7 @@ body {
 
 #front_page_cnt {
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-image: url('images/IMG_6438.JPG');
     background-size: 100%;
     background-position: center;
