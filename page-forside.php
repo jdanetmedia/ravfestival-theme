@@ -9,6 +9,16 @@
 ?>
 
 <?php get_header(); ?>
+
+<div id="front_page_cnt">
+	<div id="overlay">
+		<div id=main_cnt>
+			<div id="logo_cnt"></div>
+			<div id="headertext_cnt"></div>
+			<div id="countdown_cnt"></div>
+		</div>
+	</div>
+</div>
 <section id="content" role="main">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

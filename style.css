@@ -17,8 +17,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body {
     font-family: sans-serif;
     display: none;
+	margin: 0;
+	overflow-x: hidden;
 }
-
 #menu {
     width: 60px;
     height: 200px;
@@ -46,13 +47,14 @@ body {
         transition: all 0.5s ease-in-out;
     }
     #menu li:hover {
-        transform: translate(-40px);
+        transform: translate(60px);
         background-color: #95b9cc;
     }
     #menu li:hover a {
         color: black;
         text-decoration: none;
-        transform: translate(-30px);
+        transform: translate(-120px);
+        display: block;
     }
     #menu li a {
         display: block;
@@ -62,4 +64,42 @@ body {
     }
 
 
+#front_page_cnt {
+    width: 100%;
+    height: 600px;
+    background-image: url('images/IMG_6438.JPG');
+    background-size: 100%;
+    background-position: center;
 
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.7);
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+}
+#main_cnt {
+    width: 580px;
+    height: 370px;
+    background-color: red;
+}
+#logo_cnt {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+
+#headertext_cnt {
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+}
+
+#countdown_cnt {
+    height: 100px;
+    width: 100%;
+    background-color: #616e7a;
+}
