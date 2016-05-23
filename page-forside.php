@@ -73,12 +73,13 @@
 
 <div id="front_page_cnt3">
 	<div id="news_main_cnt">
+		<?php $latest = new WP_Query('showposts=4'); ?>
+		<?php while( $latest->have_posts() ) : $latest->the_post(); ?>
 		<div class="news_cnt">
-			<div class="news_text_cnt"></div>
+			<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+			<div class="news_text_cnt"><?php the_title(); ?></div>
 		</div>
-		<div class="news_cnt">2</div>
-		<div class="news_cnt">3</div>
-		<div class="news_cnt">4</div>
+		<?php endwhile; ?>
 	</div>
 </div>
 
