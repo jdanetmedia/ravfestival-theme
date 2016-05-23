@@ -90,7 +90,6 @@ body {
     width: 100%;
     background-color: blue;
 }
-
 #headertext_cnt {
     height: 100px;
     width: 100%;
@@ -99,13 +98,14 @@ body {
     -webkit-box-align: center;
     color: #616e7a;
 }
-
 #countdown_cnt {
     height: 120px;
     width: 100%;
     background-color: #616e7a;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;  
 }
-
 #front_page_cnt2 {
     background-color: #f7f7f7;
     width: 100vw;
@@ -129,7 +129,6 @@ body {
     height: 100%;
     background-color: #ff8888;
 }
-
 #front_page_cnt3 {
     background-color: #616e7a;
     width: 100vw;
