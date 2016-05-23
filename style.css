@@ -15,7 +15,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 
 body {
-    font-family: 'Futura', sans-serif;
+    font-family: 'Open sans', sans-serif;
 	margin: 0;
 	overflow-x: hidden;
 	background-color: #f7f7f7;
@@ -25,14 +25,11 @@ body {
     100% {transform: rotate(360deg);}
 }
 
-=======
-
 p {
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 400;
 }
-
 
 #menu {
     width: 60px;
@@ -109,6 +106,7 @@ p {
     background-size: cover;
 }
 #headertext_cnt {
+	font-family: 'Futura', sans-serif;
     height: 100px;
     width: 100%;
     display: -webkit-box;
@@ -154,6 +152,7 @@ p {
         }
 
 #front_page_cnt2 {
+	margin-top: 5%;
     background-color: #f7f7f7;
     min-height: 1px;
     overflow: hidden;
@@ -169,11 +168,13 @@ p {
 }
 
 #second_left_cnt h1 {
+	font-family: 'Futura', sans-serif;
 	font-size: 24px;	
+	line-height: 43px;
+	margin-bottom: 20px;
 }
 
 #second_right_cnt {
-    padding-top: 5%;
     float: left;
     width: 50%;
     box-sizing: border-box;
@@ -186,6 +187,7 @@ p {
 
     }
 #bottom_circle_cnt {
+	font-family: 'Futura', sans-serif;
     position: relative;
     float: left;
     width: 90%;
@@ -193,6 +195,8 @@ p {
     margin-top: 5%;
 }
 .circle_cnt {
+	font-size: 24px;
+	line-height: 48px;
     width: 22.5%;
     height: auto;
     float: left;
@@ -234,6 +238,7 @@ p {
 }
 
 .news_text_cnt {
+	margin-top: 5%;
     width: 100%;
     min-height: 136px;
     background-color: rgba(255,168,27,0.9);
