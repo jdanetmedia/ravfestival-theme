@@ -48,7 +48,6 @@
             <h1 class="entry-title"><?php the_title(); ?></h1> <?php edit_post_link(); ?>
             </header>
             <section class="entry-content">
-            <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
             <?php the_content(); ?>
             <div class="entry-links"><?php wp_link_pages(); ?></div>
             </section>
@@ -56,11 +55,30 @@
             <?php if ( ! post_password_required() ) comments_template( '', true ); ?>
             <?php endwhile; endif; ?>
             </section>
+
 		</div>
-		<div id="second_right_cnt">ss</div>
+		<div id="second_right_cnt">
+			<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+		</div>
+
+
+	</div>
+	<div id="bottom_circle_cnt">
+		<div class="circle_cnt">1</div>
+		<div class="circle_cnt">2</div>
+		<div class="circle_cnt">3</div>
+		<div class="circle_cnt">4</div>
 	</div>
 </div>
-<div id="front_page_cnt3"></div>
+
+<div id="front_page_cnt3">
+	<div id="news_main_cnt">
+		<div class="news_cnt">1</div>
+		<div class="news_cnt">2</div>
+		<div class="news_cnt">3</div>
+		<div class="news_cnt">4</div>
+	</div>
+</div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
