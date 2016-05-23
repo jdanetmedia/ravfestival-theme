@@ -15,7 +15,26 @@
 		<div id=main_cnt>
 			<div id="logo_cnt"></div>
 			<div id="headertext_cnt">Ravfestival starter om:</div>
-			<div id="countdown_cnt"></div>
+                        <div id="countdown_cnt">
+                            <div id="clockdiv">
+                                <div>
+                                    <span class="days"></span>
+                                    <div class="smalltext">Dage</div>
+                                </div>
+                                <div>
+                                    <span class="hours"></span>
+                                    <div class="smalltext">Timer</div>
+                                </div>
+                                <div>
+                                    <span class="minutes"></span>
+                                    <div class="smalltext">Minutter</div>
+                                </div>
+                                <div>
+                                    <span class="seconds"></span>
+                                    <div class="smalltext">Sekunder</div>
+                                </div>
+                            </div>
+                        </div>
 		</div>
 	</div>
 </div>
