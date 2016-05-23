@@ -63,7 +63,7 @@ p {
         background-color: #95b9cc;
     }
     #menu li:hover a {
-        color: black;
+        color: red;
         text-decoration: none;
         transform: translate(-80px);
         display: block;
