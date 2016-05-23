@@ -80,7 +80,6 @@ body {
     display: -webkit-box;
     -webkit-box-pack: center;
     -webkit-box-align: center;
-
 }
 #main_cnt {
     width: 580px;
@@ -95,11 +94,44 @@ body {
 #headertext_cnt {
     height: 100px;
     width: 100%;
-    background-color: orange;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    color: #616e7a;
 }
 
 #countdown_cnt {
     height: 120px;
     width: 100%;
     background-color: #616e7a;
+}
+
+#front_page_cnt2 {
+    background-color: #f7f7f7;
+    width: 100vw;
+    height: 100vh;
+}
+#second_cnt {
+    width: 90%;
+    height: 100%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+#second_left_cnt {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #616e7a;
+}
+#second_right_cnt {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #ff8888;
+}
+
+#front_page_cnt3 {
+    background-color: #616e7a;
+    width: 100vw;
+    height: 100vh;
 }
