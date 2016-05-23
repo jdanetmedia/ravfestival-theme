@@ -76,4 +76,13 @@ function getTimeRemaining(endtime) {
         }
 
         var deadline = new Date(Date.parse('sept 23, 2016'));
-        initializeClock('clockdiv', deadline);    
+        initializeClock('clockdiv', deadline);  
+
+// MOBILMENU
+     
+$(document).ready(function(){
+	$(".hamburger").click(function(){
+		$(".menu-main-menu-container").slideToggle(150);
+		$(".toggle_container").toggleClass('white_bg');
+		});
+});  

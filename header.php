@@ -15,6 +15,13 @@
 <div id="site-description"><?php bloginfo( 'description' ); ?></div>
 </section>
 <nav id="menu" role="navigation">
+<div class="toggle_container">
+	<div class="hamburger">
+		<div class="line line1"></div>
+		<div class="line line2"></div>
+		<div class="line line3"></div>
+	</div>
+</div>
 <div id="search">
 <?php get_search_form(); ?>
 </div>
