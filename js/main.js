@@ -9,6 +9,16 @@ function ravslibeffekt() {
     a.style.animationTimingFunction = "linear";
     var b = document.getElementById("ravhaand");
     b.style.transform = "translate(-75px)";
+    var c = document.getElementById("glans");
+    c.style.animation = "glans1_effekt 0.5s";
+    c.style.animationIterationCount = "infinite";
+    c.style.animationTimingFunction = "bounce";
+    c.style.animationDelay = "1s";
+    var d = document.getElementById("glans2");
+    d.style.animation = "glans2_effekt 0.5s";
+    d.style.animationIterationCount = "infinite";
+    d.style.animationTimingFunction = "bounce";
+    d.style.animationDelay = "1s";
 }
 function ravslibeffektOut() {
     var a = document.getElementById("sliber");
@@ -17,6 +27,12 @@ function ravslibeffektOut() {
     a.style.animationTimingFunction = "linear";
     var b = document.getElementById("ravhaand");
     b.style.transform = "translate(0px)";
+    var c = document.getElementById("glans");
+    c.style.animationIterationCount = "1";
+    c.style.backgroundColor = "rgba(0,0,0,0)";
+    var c = document.getElementById("glans2");
+    c.style.animationIterationCount = "1";
+    c.style.backgroundColor = "rgba(0,0,0,0)";
 }
 
 

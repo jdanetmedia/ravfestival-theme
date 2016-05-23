@@ -24,6 +24,20 @@ body {
 @keyframes rotate_sliber {
     100% {transform: rotate(360deg);}
 }
+@keyframes glans1_effekt {
+    0% {background-color: rgba(247,166,37,1); transform: translate(0,0); }
+    25% {background-color: rgba(247,166,37,0.75); transform: translate(30px,-30px); }
+    50% {background-color: rgba(247,166,37,0.5); transform: translate(50px,-50px); }
+    75% {background-color: rgba(247,166,37,0.25); transform: translate(75px,-40px); }
+    100% {background-color: rgba(247,166,37,0); transform: translate(100px,-10px); }
+}
+@keyframes glans2_effekt {
+    0% {background-color: rgba(247,166,37,1); transform: translate(0,0); }
+    25% {background-color: rgba(247,166,37,0.75); transform: translate(30px,30px); }
+    50% {background-color: rgba(247,166,37,0.5); transform: translate(50px,50px); }
+    75% {background-color: rgba(247,166,37,0.25); transform: translate(75px,40px); }
+    100% {background-color: rgba(247,166,37,0); transform: translate(100px,10px); }
+}
 
 p {
 	font-size: 14px;
@@ -309,12 +323,24 @@ p {
     background-color: #cbcbcb;
     float: right;
 }
+#slib_text {
+    margin-left: 5%;
+    width: 90%;
+    height: 400px;
+}
+#sliber_text_holder {
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 100%;
+    font-size: 36px;
+}
 .picture_cnt {
     width: 800px;
     height: 400px;
-    margin: 0 auto;
 }
 #sliber {
+    position: relative;
     float: left;
     width: 400px;
     height: 400px;
@@ -325,9 +351,28 @@ p {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+#glans {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    z-index: 20;
+    left: 360px;
+    top: 180px;
+    border-radius: 50%;
+}
+#glans2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    z-index: 20;
+    left: 360px;
+    top: 220px;
+    border-radius: 50%;
+}
 #ravhaand {
-    width: 400px;
+    width: 300px;
     height: 400px;
+    position: relative;
     float: left;
     background-image: url('images/ravhaand.png');
     transition: all 0.8s ease-in-out;

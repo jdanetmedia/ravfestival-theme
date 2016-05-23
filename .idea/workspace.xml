@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
               <folding>
                 <element signature="n#!!block;n#getTimeRemaining#0" expanded="false" />
                 <element signature="n#!!block;n#initializeClock#0" expanded="false" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="page-certifikat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-certifikat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.301887">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state vertical-scroll-proportion="-7.245283">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -61,11 +61,11 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83196044">
-              <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.6540362">
+              <caret line="377" column="37" selection-start-line="377" selection-start-column="37" selection-end-line="377" selection-end-column="37" />
               <folding>
-                <element signature="e#6517#6781#0" expanded="false" />
-                <element signature="e#6853#6877#0" expanded="false" />
+                <element signature="e#7405#7669#0" expanded="false" />
+                <element signature="e#7741#7765#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -307,8 +307,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
           <folding>
-            <element signature="e#6517#6781#0" expanded="false" />
-            <element signature="e#6853#6877#0" expanded="false" />
+            <element signature="e#7405#7669#0" expanded="false" />
+            <element signature="e#7741#7765#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -344,8 +344,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
           <folding>
-            <element signature="e#6517#6781#0" expanded="false" />
-            <element signature="e#6853#6877#0" expanded="false" />
+            <element signature="e#7405#7669#0" expanded="false" />
+            <element signature="e#7741#7765#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -449,19 +449,11 @@
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
           <folding>
             <element signature="n#!!block;n#getTimeRemaining#0" expanded="false" />
             <element signature="n#!!block;n#initializeClock#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-certifikat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.301887">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,13 +462,21 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page-certifikat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.245283">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83196044">
-          <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.6540362">
+          <caret line="377" column="37" selection-start-line="377" selection-start-column="37" selection-end-line="377" selection-end-column="37" />
           <folding>
-            <element signature="e#6517#6781#0" expanded="false" />
-            <element signature="e#6853#6877#0" expanded="false" />
+            <element signature="e#7405#7669#0" expanded="false" />
+            <element signature="e#7741#7765#0" expanded="false" />
           </folding>
         </state>
       </provider>
