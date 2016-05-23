@@ -65,8 +65,8 @@
 	</div>
 	<div id="bottom_circle_cnt">
 		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/program.png" class="icons"/><div class="circle_text">Program for Ravfestival</div></div>
-		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/certifikat.png" class="icons" /><div class="circle_text">Bliv certificeret ravjæger</div></div>
-		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/reminder.png" class="icons"/><div class="circle_text">Få en påmindelse</div></div>
+		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/certifikat.png" class="icons" /><div class="circle_text">Bliv certificeret ravjÃ¦ger</div></div>
+		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/reminder.png" class="icons"/><div class="circle_text">FÃ¥ en pÃ¥mindelse</div></div>
 		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/galleri.png" class="icons"/><div class="circle_text">Billder / Video</div></div>
 	</div>
 </div>
