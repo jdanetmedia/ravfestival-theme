@@ -20,7 +20,7 @@ body {
 	overflow-x: hidden;
 	background-color: #f7f7f7;
 }
-<<<<<<< HEAD
+
 @keyframes rotate_sliber {
     100% {transform: rotate(360deg);}
 }
@@ -32,7 +32,7 @@ p {
 	line-height: 20px;
 	font-weight: 400;
 }
->>>>>>> 86585a1d8eab1b9e302ac0ae19d718dbadaeb03a
+
 
 #menu {
     width: 60px;
