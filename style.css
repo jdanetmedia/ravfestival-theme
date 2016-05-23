@@ -19,6 +19,11 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 }
+@keyframes rotate_sliber {
+    100% {transform: rotate(360deg);}
+}
+
+
 #menu {
     width: 60px;
     height: 200px;
@@ -232,6 +237,30 @@ body {
     background-color: #cbcbcb;
     float: right;
 }
+.picture_cnt {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+}
+#sliber {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-image: url('images/sliber.png');
+    -webkit-animation: rotate_sliber 8s;
+    animation: rotate_sliber 8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+#ravhaand {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-image: url('images/ravhaand.png');
+    transition: all 0.8s ease-in-out;
+}
 #certifikat_second_cnt {
     clear: both;
     width: 100%;
@@ -248,7 +277,7 @@ body {
     clear: both;
     width: 100%;
     min-height: 1px;
-    background-color: #5cf791;
+    background-color: #9cb9cd;
 }
 #certifikat_fifth_cnt {
     width: 100%;
