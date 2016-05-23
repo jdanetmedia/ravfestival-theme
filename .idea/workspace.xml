@@ -24,8 +24,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41186163">
-              <caret line="184" column="28" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.5881384">
+              <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
               <folding>
                 <element signature="e#1523#1654#0" expanded="false" />
                 <element signature="e#1673#1703#0" expanded="false" />
@@ -35,15 +35,8 @@
                 <element signature="e#2193#2314#0" expanded="false" />
                 <element signature="e#2330#2361#0" expanded="false" />
                 <element signature="e#2385#2437#0" expanded="false" />
-                <element signature="e#2456#2606#0" expanded="false" />
-                <element signature="e#2616#2786#0" expanded="false" />
                 <element signature="e#2797#2837#0" expanded="false" />
-                <element signature="e#2848#2915#0" expanded="false" />
-                <element signature="e#3238#3437#0" expanded="false" />
-                <element signature="e#3462#3600#0" expanded="false" />
-                <element signature="e#3630#3768#0" expanded="false" />
-                <element signature="e#3788#3858#0" expanded="false" />
-                <marker date="1463993205215" expanded="true" signature="2492:2606" placeholder="{...}" />
+                <marker date="1463998335764" expanded="true" signature="2492:2606" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,10 +45,19 @@
       <file leaf-file-name="page-forside.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-forside.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.185185">
-              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-              <folding />
+            <state vertical-scroll-proportion="11.653846">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ravlogo-flat6.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/ravlogo-flat6.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -179,6 +181,7 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -309,15 +312,8 @@
             <element signature="e#2193#2314#0" expanded="false" />
             <element signature="e#2330#2361#0" expanded="false" />
             <element signature="e#2385#2437#0" expanded="false" />
-            <element signature="e#2456#2606#0" expanded="false" />
-            <element signature="e#2616#2786#0" expanded="false" />
             <element signature="e#2797#2837#0" expanded="false" />
-            <element signature="e#2848#2915#0" expanded="false" />
-            <element signature="e#3238#3437#0" expanded="false" />
-            <element signature="e#3462#3600#0" expanded="false" />
-            <element signature="e#3630#3768#0" expanded="false" />
-            <element signature="e#3788#3858#0" expanded="false" />
-            <marker date="1463993205215" expanded="true" signature="2492:2606" placeholder="{...}" />
+            <marker date="1463998335764" expanded="true" signature="2492:2606" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -399,18 +395,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/ravlogo-flat6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/reminder.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page-forside.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.185185">
-          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-          <folding />
+        <state vertical-scroll-proportion="11.653846">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41186163">
-          <caret line="184" column="28" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.5881384">
+          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
           <folding>
             <element signature="e#1523#1654#0" expanded="false" />
             <element signature="e#1673#1703#0" expanded="false" />
@@ -420,15 +428,8 @@
             <element signature="e#2193#2314#0" expanded="false" />
             <element signature="e#2330#2361#0" expanded="false" />
             <element signature="e#2385#2437#0" expanded="false" />
-            <element signature="e#2456#2606#0" expanded="false" />
-            <element signature="e#2616#2786#0" expanded="false" />
             <element signature="e#2797#2837#0" expanded="false" />
-            <element signature="e#2848#2915#0" expanded="false" />
-            <element signature="e#3238#3437#0" expanded="false" />
-            <element signature="e#3462#3600#0" expanded="false" />
-            <element signature="e#3630#3768#0" expanded="false" />
-            <element signature="e#3788#3858#0" expanded="false" />
-            <marker date="1463993205215" expanded="true" signature="2492:2606" placeholder="{...}" />
+            <marker date="1463998335764" expanded="true" signature="2492:2606" placeholder="{...}" />
           </folding>
         </state>
       </provider>
