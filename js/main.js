@@ -2,6 +2,23 @@ $(document).ready(function() {
     $("body").css("display", "none");
     $("body").fadeIn(1000);
 });
+function ravslibeffekt() {
+    var a = document.getElementById("sliber");
+    a.style.animation = "rotate_sliber 0.2s";
+    a.style.animationIterationCount = "infinite";
+    a.style.animationTimingFunction = "linear";
+    var b = document.getElementById("ravhaand");
+    b.style.transform = "translate(-75px)";
+}
+function ravslibeffektOut() {
+    var a = document.getElementById("sliber");
+    a.style.animation = "rotate_sliber 8s";
+    a.style.animationIterationCount = "infinite";
+    a.style.animationTimingFunction = "linear";
+    var b = document.getElementById("ravhaand");
+    b.style.transform = "translate(0px)";
+}
+
 
 function getTimeRemaining(endtime) {
             var t = Date.parse(endtime) - Date.parse(new Date());
