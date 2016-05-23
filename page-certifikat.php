@@ -33,6 +33,7 @@
 <div id="certifikat_second_cnt"><h1>Byg dit redskab</h1></div>
 <div id="certifikat_third_cnt"><h1>Find ravet</h1></div>
 <div id="certifikat_fourth_cnt">
+	<h1>Slib dit rav</h1>
 	<div class="picture_cnt" onmouseover="ravslibeffekt()" onmouseout="ravslibeffektOut()">
 		<div id="sliber"></div>
 		<div id="ravhaand"></div>

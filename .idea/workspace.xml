@@ -44,8 +44,8 @@
       <file leaf-file-name="page-certifikat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-certifikat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.924528">
-              <caret line="35" column="89" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
+            <state vertical-scroll-proportion="-9.301887">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -61,11 +61,11 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6359143">
-              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.83196044">
+              <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
               <folding>
-                <element signature="e#5582#5846#0" expanded="false" />
-                <element signature="e#5918#5942#0" expanded="false" />
+                <element signature="e#6517#6781#0" expanded="false" />
+                <element signature="e#6853#6877#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -82,8 +82,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/page-forside.php" />
-        <option value="$PROJECT_DIR$/page-certifikat.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/page-certifikat.php" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
@@ -307,8 +307,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
           <folding>
-            <element signature="e#5582#5846#0" expanded="false" />
-            <element signature="e#5918#5942#0" expanded="false" />
+            <element signature="e#6517#6781#0" expanded="false" />
+            <element signature="e#6853#6877#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -344,8 +344,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
           <folding>
-            <element signature="e#5582#5846#0" expanded="false" />
-            <element signature="e#5918#5942#0" expanded="false" />
+            <element signature="e#6517#6781#0" expanded="false" />
+            <element signature="e#6853#6877#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -446,19 +446,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-certifikat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.924528">
-          <caret line="35" column="89" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ravlogo-flat6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -470,13 +457,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page-certifikat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.301887">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ravlogo-flat6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6359143">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.83196044">
+          <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
           <folding>
-            <element signature="e#5582#5846#0" expanded="false" />
-            <element signature="e#5918#5942#0" expanded="false" />
+            <element signature="e#6517#6781#0" expanded="false" />
+            <element signature="e#6853#6877#0" expanded="false" />
           </folding>
         </state>
       </provider>
