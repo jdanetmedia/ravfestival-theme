@@ -71,6 +71,8 @@ return $count;
 function ravfestival_theme_script_enqueue() {
 	
 	wp_enqueue_script('customjs', get_template_directory_uri() . '/js/main.js', array(), '1.0', true);
+	wp_enqueue_style('tablet', get_stylesheet_directory_uri().'/style-tablet.css');
+	wp_enqueue_style('mobile', get_stylesheet_directory_uri().'/style-mobile.css');
 	
 }
 

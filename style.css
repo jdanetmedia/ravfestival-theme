@@ -14,6 +14,8 @@ Text Domain: ravfestival_theme
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 
+/* DESKTOP */
+
 body {
     font-family: 'Open sans', sans-serif;
 	margin: 0;
@@ -41,8 +43,8 @@ body {
 
 p {
 	font-size: 14px;
-	line-height: 20px;
-	font-weight: 400;
+	line-height: 28px;
+	font-weight: 300;
 }
 
 #menu {
@@ -97,7 +99,7 @@ p {
     width: 100%;
     height: 100vh;
     background-image: url('images/IMG_6438.JPG');
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
 
 }
@@ -135,6 +137,7 @@ p {
 }
 #headertext_cnt {
 	font-family: 'Futura', sans-serif;
+	font-size: 48px;
     height: 100px;
     width: 100%;
     /*Internet explorer 10*/
@@ -292,6 +295,7 @@ p {
 }
 
 .news_text_cnt {
+	font-family: 'Futura', sans-serif;
 	margin-top: 5%;
     width: 100%;
     min-height: 136px;
@@ -375,7 +379,11 @@ p {
     position: relative;
     float: left;
     background-image: url('images/ravhaand.png');
-    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
 }
 #certifikat_second_cnt {
     clear: both;

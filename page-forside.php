@@ -67,7 +67,7 @@
 		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/program.png" class="icons"/><div class="circle_text">Program for Ravfestival</div></div>
 		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/certifikat.png" class="icons" /><div class="circle_text">Bliv certificeret ravjæger</div></div>
 		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/reminder.png" class="icons"/><div class="circle_text">Få en påmindelse</div></div>
-		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/galleri.png" class="icons"/><div class="circle_text">Billder / Video</div></div>
+		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/galleri.png" class="icons"/><div class="circle_text">Billeder / Video</div></div>
 	</div>
 </div>
 
@@ -76,8 +76,10 @@
 		<?php $latest = new WP_Query('showposts=4'); ?>
 		<?php while( $latest->have_posts() ) : $latest->the_post(); ?>
 		<div class="news_cnt">
-			<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
-			<div class="news_text_cnt"><?php the_title(); ?></div>
+			<a href="<?php the_permalink(); ?>">
+				<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+				<div class="news_text_cnt"><?php the_title(); ?></div>
+			</a>
 		</div>
 		<?php endwhile; ?>
 	</div>

@@ -1,0 +1,23 @@
+/* MOBILE STYLNG */
+@media screen and (max-width: 480px) {
+	#main_cnt {
+		width: 100%;
+	}
+	#logo_cnt {
+		width: 80%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 0 auto;
+	}
+	#headertext_cnt {
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#countdown_cnt {
+		margin-top: 20px;
+	}
+	#clockdiv {
+		font-size: 14px;
+	}
+}
