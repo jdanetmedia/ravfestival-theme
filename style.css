@@ -101,13 +101,11 @@ body {
 #countdown_cnt {
     height: 120px;
     width: 100%;
-    background-color: #616e7a;
     display: -webkit-box;
     -webkit-box-pack: center;
     -webkit-box-align: center;  
 }
-<<<<<<< HEAD
-=======
+
 
     #clockdiv{
             font-family: sans-serif;
@@ -137,7 +135,6 @@ body {
             font-size: 16px;
         }
 
->>>>>>> a163a761da188f3fa7ab22ff0ebf04c747022c56
 #front_page_cnt2 {
     background-color: #f7f7f7;
     width: 100vw;
