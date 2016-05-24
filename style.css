@@ -45,6 +45,16 @@ body {
     50% {background-color: rgba(247,166,37,0);}
     100% {background-color: rgba(247,166,37,0.4);}
 }
+@keyframes netholder_translate {
+    0% {transform: translate(-110px,0px);}
+    50% {transform: translate(0px,0px);}
+    100% {transform: translate(-110px,0px);}
+}
+@keyframes net_translate {
+    0% {transform: translate(-432px,0px);}
+    50% {transform: translate(0px,0px);}
+    100% {transform: translate(-432px,0px);}
+}
 p {
 	font-size: 14px;
 	line-height: 28px;
@@ -330,6 +340,57 @@ p {
     height: 600px;
     background-color: #cbcbcb;
     float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#byg_text {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#byg_cnt {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+#kaesehandle {
+    float: left;
+    width: 349px;
+    height: 75%;
+    background-image: url('images/kaesehandle.png');
+    background-size: cover;
+    z-index: 6;
+}
+#kaesenetholder {
+    float: left;
+    position: relative;
+    width: 193px;
+    height: 75%;
+    background-image: url('images/kaesenetholder.png');
+    background-size: cover;
+    left: 100px;
+    -webkit-animation: netholder_translate 8s;
+    animation: netholder_translate 8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 5;
+}
+#kaesenet {
+    float: right;
+    position: relative;
+    width: 193px;
+    height: 75%;
+    background-image: url('images/kaesenet.png');
+    background-size: cover;
+    -webkit-animation: net_translate 8s;
+    animation: net_translate 8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 4;
 }
 #slib_text {
     width: 960px;
@@ -340,7 +401,8 @@ p {
     float: left;
     width: 260px;
     height: 100%;
-    font-size: 24px;
+    padding-top: 20px;
+    box-sizing: border-box;
     /* mangler andre browsers*/
 }
 .picture_cnt {
@@ -399,13 +461,13 @@ p {
     width: 100%;
     height: 400px;
     min-height: 1px;
-    background-color: #dcd9cb;
+    background-color: #f7f7f7;
 }
 #certifikat_third_cnt {
     clear: both;
     width: 100%;
     min-height: 1px;
-    background-color: #f7f7f7;
+    background-color: #dcd9cb;
 }
 #third_cnt {
     width: 960px;
@@ -422,7 +484,8 @@ p {
 #third_text {
     float: right;
     height: 400px;
-    font-size: 24px;
+    padding-top: 20px;
+    box-sizing: border-box;
     /* mangler andre browsers*/
 }
 #certifikat_fourth_cnt {

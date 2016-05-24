@@ -15,6 +15,7 @@ function ravslibeffekt() {
     b.style.transform = "translate(-115px)";
     var c = document.getElementById("glans");
     c.style.animation = "glans1_effekt 0.5s";
+    c.style.webkitAnimation = "glans1_effekt 0.5s"
     c.style.animationIterationCount = "infinite";
     c.style.animationTimingFunction = "bounce";
     c.style.animationDelay = "1s";
@@ -27,6 +28,7 @@ function ravslibeffekt() {
 function ravslibeffektOut() {
     var a = document.getElementById("sliber");
     a.style.animation = "rotate_sliber 8s";
+    a.style.webkitAnimation = "glans1_effekt 8s"
     a.style.animationIterationCount = "infinite";
     a.style.animationTimingFunction = "linear";
     var b = document.getElementById("ravhaand");

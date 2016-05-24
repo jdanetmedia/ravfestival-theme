@@ -10,7 +10,7 @@
 
 <?php get_header(); ?>
 <div id="certifikat_first_cnt">
-	hej
+
 	<div id="certifikat_text_cnt">
 		<section id="content" role="main">
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -30,7 +30,14 @@
 	</div>
 </div>
 
-<div id="certifikat_second_cnt"><h1>Byg dit redskab</h1></div>
+<div id="certifikat_second_cnt">
+	<div id="byg_text"><h1>Byg dit redskab</h1><p>Find de nødvendige materialer og byg en kæse.</p></div>
+	<div id="byg_cnt">
+		<div id="kaesehandle"></div>
+		<div id="kaesenetholder"></div>
+		<div id="kaesenet"></div>
+	</div>
+</div>
 <div id="certifikat_third_cnt">
 	<div id="third_cnt">
 		<div id="drengkigger"></div>
