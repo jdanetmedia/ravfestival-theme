@@ -547,3 +547,68 @@ p {
     height: 150px;
     background-color: #333333;
 }
+
+/* NEWSFEED SIDE */
+
+#content {
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-height: 1px;
+    overflow: hidden;
+}
+.custom_logo {
+    height: 60px;
+}
+.custom_logo img {
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#content h2.entry-title,
+#content h2.entry-title a {
+	font-family: 'Futura', sans-serif;
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 24px;
+    line-height: 48px;
+}
+.blog .hentry {
+	width: 48.335%;
+	margin-right: 3.33%;
+	margin-bottom: 3.33%;
+	float: left;
+	position: relative;
+}
+.blog .hentry:nth-child(even) {
+	margin-right: 0;
+}
+.blog .hentry img {
+	width: 100%;
+}
+.blog .hentry header {
+	position: absolute;
+	width: 100%;
+	min-height: 136px;
+	background-color: rgba(255,168,27,0.9);
+	font-size: 24px;
+	line-height: 48px;
+	padding: 20px;
+	box-sizing: border-box;
+	bottom: 0;
+	left: 0;
+}
+.more-link {
+	display: block;
+	width: 63px;
+    background-color: rgba(255,168,27,1);
+    text-decoration: none;
+    padding: 15px;
+    color: #f7f7f7;
+    margin-top: 20px;
+}
+.entry-meta {
+	font-size: 10px;
+	margin-bottom: 10px;
+}
