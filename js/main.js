@@ -28,7 +28,7 @@ function ravslibeffekt() {
 function ravslibeffektOut() {
     var a = document.getElementById("sliber");
     a.style.animation = "rotate_sliber 8s";
-    a.style.webkitAnimation = "glans1_effekt 8s"
+    a.style.webkitAnimation = "rotate_sliber 8s"
     a.style.animationIterationCount = "infinite";
     a.style.animationTimingFunction = "linear";
     var b = document.getElementById("ravhaand");
