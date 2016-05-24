@@ -81,4 +81,43 @@
 	    font-size: 14px;
 	    line-height: 28px;
     }
+    #content {
+	    width: 100%;
+	    box-sizing: border-box;
+	    padding: 40px;
+    }
+    .custom_logo {
+	    height: 60px;
+    }
+    .custom_logo img {
+	    height: 40px;
+	    padding-top: 15px;
+	    padding-left: 10px;
+    }
+    #content h2.entry-title,
+    #content h2.entry-title a {
+    	font-family: 'Futura', sans-serif;
+	    text-decoration: none;
+	    color: #333333;
+	    font-size: 24px;
+	    line-height: 30px;
+	    margin-bottom: 20px;
+    }
+    .blog .wp-post-image {
+	    width: 50%;
+	    float: right;
+	    margin: 0 0 20px 20px;
+    }
+    .blog .hentry {
+	    margin-bottom: 40px;
+    }
+    .more-link {
+    	display: block;
+    	width: 63px;
+	    background-color: rgba(255,168,27,1);
+	    text-decoration: none;
+	    padding: 15px;
+	    color: #f7f7f7;
+	    margin-top: 20px;
+    }
 }
