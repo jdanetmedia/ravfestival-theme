@@ -14,7 +14,7 @@
 	<div id="overlay">
 		<div id=main_cnt>
 			<div id="logo_cnt"></div>
-			<div id="headertext_cnt">Ravfestival starter om:</div>
+			<div id="headertext_cnt">Starter om:</div>
                         <div id="countdown_cnt">
                             <div id="clockdiv">
                                 <div>
