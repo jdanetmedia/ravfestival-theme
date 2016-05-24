@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $(".hamburger").click(function(){
+        $(".menu-main-menu-container").slideToggle(150);
+        $(".toggle_container").toggleClass('white_bg');
+    });
     $("body").css("display", "none");
     $("body").fadeIn(1000);
 });
@@ -77,12 +81,3 @@ function getTimeRemaining(endtime) {
 
         var deadline = new Date(Date.parse('sept 23, 2016'));
         initializeClock('clockdiv', deadline);  
-
-// MOBILMENU
-     
-$(document).ready(function(){
-	$(".hamburger").click(function(){
-		$(".menu-main-menu-container").slideToggle(150);
-		$(".toggle_container").toggleClass('white_bg');
-		});
-});  
