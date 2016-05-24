@@ -9,7 +9,7 @@ $(document).ready(function() {
 function ravslibeffekt() {
     var a = document.getElementById("sliber");
     a.style.animation = "rotate_sliber 0.2s";
-    a.style.webkitAnimation = "rotate_sliber 0.2s"
+    a.style.webkitAnimation = "rotate_sliber 0.2s";
     a.style.animationIterationCount = "infinite";
     a.style.animationTimingFunction = "linear";
     var b = document.getElementById("ravhaand");
@@ -29,7 +29,7 @@ function ravslibeffekt() {
 function ravslibeffektOut() {
     var a = document.getElementById("sliber");
     a.style.animation = "rotate_sliber 8s";
-    a.style.webkitAnimation = "rotate_sliber 8s"
+    a.style.webkitAnimation = "rotate_sliber 8s";
     a.style.animationIterationCount = "infinite";
     a.style.animationTimingFunction = "linear";
     var b = document.getElementById("ravhaand");
