@@ -1,23 +1,43 @@
 /* MOBILE STYLNG */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 667px) {
 	#main_cnt {
 		width: 100%;
+		height: auto;
 	}
 	#logo_cnt {
-		width: 80%;
+		width: 50%;
+		height: 80px;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		margin: 0 auto;
 	}
 	#headertext_cnt {
+		font-size: 24px;
 		width: 80%;
+		height: auto;
 		margin: 0 auto;
 		text-align: center;
 	}
 	#countdown_cnt {
 		margin-top: 20px;
+		height: auto;
 	}
 	#clockdiv {
 		font-size: 14px;
+	}
+	#second_left_cnt,
+	#second_right_cnt {
+		width: 100%;
+		float: left;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.circle_text {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.news_cnt {
+		width: 100%;
+		margin: 15px 0;
 	}
 }

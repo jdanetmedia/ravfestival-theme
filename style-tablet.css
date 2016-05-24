@@ -67,4 +67,18 @@
     .white_bg {
 	    background-color: #f7f7f7;
     }
+    .circle_cnt {
+	    width: 50%;
+	    margin: 20px 0;
+	    box-sizing: border-box;
+    }
+    .circle_cnt img {
+	    padding: 0 3%;
+	    box-sizing: border-box;
+    }
+    .news_text_cnt {
+	    min-height: 96px;
+	    font-size: 14px;
+	    line-height: 28px;
+    }
 }
