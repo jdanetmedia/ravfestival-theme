@@ -33,6 +33,8 @@
 	.menu-main-menu-container {
 		background: #f7f7f7;
 		display: none;
+		position: relative;
+		z-index: 7000;
 	}
 	#menu {
 		width: 100%;
