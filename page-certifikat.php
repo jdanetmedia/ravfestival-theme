@@ -31,11 +31,17 @@
 </div>
 
 <div id="certifikat_second_cnt"><h1>Byg dit redskab</h1></div>
-<div id="certifikat_third_cnt"><h1>Find ravet</h1></div>
+<div id="certifikat_third_cnt">
+	<div id="third_cnt">
+		<div id="drengkigger"></div>
+		<div id="third_text"><h1>Find dit rav</h1><p>Gå på ravjagt på stranden og find ravet med dit værktøj og eagle vision!</p></div>
+	</div>
+</div>
 <div id="certifikat_fourth_cnt">
 	<div id="slib_text" onmouseover="ravslibeffekt()" onmouseout="ravslibeffektOut()">
-		<div id="sliber_text_holder">Slib dit rav</div>
+
 	<div class="picture_cnt">
+		<div id="sliber_text_holder"<h1>Slib dit Rav</h1><p>Tag din ravklump med til en af de lokale slibere og slib dit rav så det skinner!</p></div>
 		<div id="sliber"></div>
 		<div id="ravhaand"></div>
 		<div id="glans"></div>
@@ -43,7 +49,13 @@
 	</div>
 </div>
 </div>
-<div id="certifikat_fifth_cnt">Lav det til et stykke smykke</div>
+<div id="certifikat_fifth_cnt">
+	<div id="smykke_cnt">
+		<div id="smykke"></div>
+		<div id="smykke_text"><h1>Lav dit ravsmykke</h1><p>Hos en af vores mange workshop kan du lave en armbånd, halskæde eller ring!</p></div>
+		<div id="ravsmykkeglow"></div>
+	</div>
+</div>
 
 
 <?php get_sidebar(); ?>

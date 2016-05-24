@@ -12,7 +12,7 @@ function ravslibeffekt() {
     a.style.animationIterationCount = "infinite";
     a.style.animationTimingFunction = "linear";
     var b = document.getElementById("ravhaand");
-    b.style.transform = "translate(-75px)";
+    b.style.transform = "translate(-115px)";
     var c = document.getElementById("glans");
     c.style.animation = "glans1_effekt 0.5s";
     c.style.animationIterationCount = "infinite";

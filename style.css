@@ -40,7 +40,11 @@ body {
     75% {background-color: rgba(247,166,37,0.25); transform: translate(75px,40px); }
     100% {background-color: rgba(247,166,37,0); transform: translate(100px,10px); }
 }
-
+@keyframes ravsmykke_glow {
+    0% {background-color: rgba(247,166,37,0.4);}
+    50% {background-color: rgba(247,166,37,0);}
+    100% {background-color: rgba(247,166,37,0.4);}
+}
 p {
 	font-size: 14px;
 	line-height: 28px;
@@ -328,19 +332,19 @@ p {
     float: right;
 }
 #slib_text {
-    margin-left: 5%;
-    width: 90%;
+    width: 960px;
     height: 400px;
+    margin: 0 auto;
 }
 #sliber_text_holder {
-    position: relative;
-    float: right;
-    width: 400px;
+    float: left;
+    width: 260px;
     height: 100%;
-    font-size: 36px;
+    font-size: 24px;
+    /* mangler andre browsers*/
 }
 .picture_cnt {
-    width: 800px;
+    width: 960px;
     height: 400px;
 }
 #sliber {
@@ -360,8 +364,10 @@ p {
     width: 20px;
     height: 20px;
     z-index: 20;
-    left: 360px;
+    left: 620px;
     top: 180px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
 }
 #glans2 {
@@ -369,9 +375,12 @@ p {
     width: 20px;
     height: 20px;
     z-index: 20;
-    left: 360px;
+    left: 620px;
     top: 220px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
+
 }
 #ravhaand {
     width: 300px;
@@ -388,14 +397,33 @@ p {
 #certifikat_second_cnt {
     clear: both;
     width: 100%;
+    height: 400px;
     min-height: 1px;
-    background-color: #f7c142;
+    background-color: #dcd9cb;
 }
 #certifikat_third_cnt {
     clear: both;
     width: 100%;
     min-height: 1px;
-    background-color: #f7b4c6;
+    background-color: #f7f7f7;
+}
+#third_cnt {
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+}
+#drengkigger {
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-image: url('images/Dreng.png');
+    background-repeat: no-repeat;
+}
+#third_text {
+    float: right;
+    height: 400px;
+    font-size: 24px;
+    /* mangler andre browsers*/
 }
 #certifikat_fourth_cnt {
     clear: both;
@@ -405,7 +433,54 @@ p {
 }
 #certifikat_fifth_cnt {
     width: 100%;
+    height: 400px;
     clear: both;
     min-height: 1px;
-    background-color: #91e5f7;
+    background-color: #f7f7f7;
+}
+#smykke_cnt {
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+}
+#smykke {
+    position: relative;
+    background-image: url('images/ravsmykke.png');
+    width: 100%;
+    height: 300px;
+    z-index: 10;
+}
+#smykke_text {
+    text-align: center;
+    z-index: 10;
+}
+#ravsmykkeglow {
+    position: relative;
+    width: 125px;
+    height: 155px;
+    background-color: rgba(247,166,37,0.2);
+    top: -220px;
+    left: 417.5px;
+    z-index: 1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    -webkit-animation: ravsmykke_glow 2s;
+    animation: ravsmykke_glow 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+/*FOOTER-------------*/
+#footer {
+    height: 150px;
+    background-color: #333333;
 }
