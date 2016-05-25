@@ -54,20 +54,17 @@
 		font-size: 16px;
 		line-height: 30px;
 	}
-<<<<<<< HEAD
+
 	#news_main_cnt {
 		width: 100%;
 		padding: 30px;
 		box-sizing: border-box;
 	}
-=======
-
->>>>>>> a1d69acdcb09c921e84ddd01c3728326fd984a9a
 	.news_cnt {
 		width: 100%;
 		margin: 15px 0;
 	}
-<<<<<<< HEAD
+
 	.blog .hentry {
 		width: 100%;
 		margin: 0 0 20px 0;
@@ -103,7 +100,6 @@
 		padding: 30px;
 	}
 }
-=======
 
 	/*RAV CERTIFIKAT*/
 	#certifikat_second_cnt {
@@ -154,4 +150,3 @@
 	}
 
 }
->>>>>>> a1d69acdcb09c921e84ddd01c3728326fd984a9a
