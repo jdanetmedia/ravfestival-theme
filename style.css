@@ -378,6 +378,7 @@ p {
     height: 100%;
     margin: 0 auto;
     box-sizing: border-box;
+    display: block;
 }
 #kaesehandle {
     float: left;
@@ -560,9 +561,17 @@ p {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-
 }
+#byg_cnt_mobile {
+    display: none;
+}
+/*--------------NYHEDSBREV----------*/
 
+#nyhedsbrev_cnt {
+    width: 100%;
+    height: 200px;
+    background-color: #dcd9cb;
+}
 
 /*-------------- FOOTER -------------*/
 #footer {

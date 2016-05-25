@@ -4,6 +4,7 @@
 		width: 100%;
 		height: auto;
 	}
+
 	#logo_cnt {
 		width: 50%;
 		height: 80px;
@@ -11,6 +12,7 @@
 		background-repeat: no-repeat;
 		margin: 0 auto;
 	}
+
 	#headertext_cnt {
 		font-size: 24px;
 		width: 80%;
@@ -18,13 +20,16 @@
 		margin: 0 auto;
 		text-align: center;
 	}
+
 	#countdown_cnt {
 		margin-top: 20px;
 		height: auto;
 	}
+
 	#clockdiv {
 		font-size: 14px;
 	}
+
 	#second_left_cnt,
 	#second_right_cnt {
 		width: 100%;
@@ -32,12 +37,63 @@
 		padding: 20px;
 		box-sizing: border-box;
 	}
+
 	.circle_text {
 		font-size: 16px;
 		line-height: 30px;
 	}
+
 	.news_cnt {
 		width: 100%;
 		margin: 15px 0;
 	}
+
+	/*RAV CERTIFIKAT*/
+	#certifikat_second_cnt {
+		height: 300px;
+	}
+
+	#byg_text {
+		max-width: 667px;
+	}
+
+	#byg_cnt {
+		display: none;
+	}
+
+	#byg_cnt_mobile {
+		width: 607px;
+		height: 159px;
+		background-image: url('images/kaesemobile.png');
+		display: block;
+		margin: 0 auto;
+	}
+
+	#third_cnt {
+		padding: 0 30px;
+	}
+
+	#third_text {
+		width: 100%;
+		float: left;
+	}
+
+	.picture_cnt {
+		padding: 0 30px;
+	}
+
+	#smykke_cnt {
+		max-width: 667px;
+	}
+
+	#smykke {
+		width: 667px;
+		height: 208px;
+		background-size: cover;
+	}
+	#ravsmykkeglow {
+		left: 274px;
+		top: -190px;
+	}
+
 }

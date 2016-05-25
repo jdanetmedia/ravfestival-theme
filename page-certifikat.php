@@ -33,6 +33,7 @@
 
 <div id="certifikat_second_cnt">
 	<div id="byg_text"><h1>Byg dit redskab</h1><p>Find de nødvendige materialer og byg en kæse.</p></div>
+	<div id="byg_cnt_mobile"></div>
 	<div id="byg_cnt">
 		<div id="kaesehandle"></div>
 		<div id="kaesenetholder"></div>
