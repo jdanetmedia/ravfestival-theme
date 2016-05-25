@@ -1,5 +1,18 @@
 /* MOBILE STYLNG */
 @media screen and (max-width: 667px) {
+	.custom_logo {
+		width: 100%;
+		margin: 0 20px;
+	}
+	.custom_logo img {
+		padding-left: 18px;
+	}
+	#content {
+		padding: 10px;
+	}
+	.blog #content {
+		padding: 30px;
+	}
 	#main_cnt {
 		width: 100%;
 		height: auto;
@@ -29,15 +42,53 @@
 	#second_right_cnt {
 		width: 100%;
 		float: left;
-		padding: 20px;
 		box-sizing: border-box;
 	}
 	.circle_text {
 		font-size: 16px;
 		line-height: 30px;
 	}
+	#news_main_cnt {
+		width: 100%;
+		padding: 30px;
+		box-sizing: border-box;
+	}
 	.news_cnt {
 		width: 100%;
 		margin: 15px 0;
+	}
+	.blog .hentry {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	.blog .hentry header {
+		height: auto;
+	}
+	.blog .wp-post-image {
+		margin: 0;
+	}
+	.index-header {
+		width: 100%;
+		padding: 0 30px;
+	}
+	.video_section {
+		width: 100%;
+		margin: 0;
+		box-sizing: border-box;
+		margin: 0 auto;
+		display: block;
+	}
+	.galleri {
+		width: 100%;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+	.entry-content {
+		min-height: 1px;
+		overflow: hidden;
+	}
+	.page-id-81 #content,
+	.page-id-33 #content {
+		padding: 30px;
 	}
 }

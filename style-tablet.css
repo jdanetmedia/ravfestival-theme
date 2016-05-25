@@ -126,12 +126,17 @@
     .index-header {
 	    margin-top: 20px;
 	    margin-bottom: 0;
-	    background: red;
     }
 
 	/*RAVCERTIFIKAT SIDEN HERUNDER -----------------*/
 	#certifikat_second_cnt {
 		max-width: 768px;
 	}
-
+	.wpgmp_map_container {
+		width: 100%;
+		margin-left: 0;
+	}
+	.wpcf7-form {
+		width: 100%;
+	}
 }
