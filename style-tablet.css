@@ -122,9 +122,17 @@
 	    color: #f7f7f7;
 	    margin-top: 20px;
     }
+<<<<<<< HEAD
     .index-header {
 	    margin-top: 20px;
 	    margin-bottom: 0;
 	    background: red;
     }
+=======
+	/*RAVCERTIFIKAT SIDEN HERUNDER -----------------*/
+	#certifikat_second_cnt {
+		max-width: 768px;
+		
+	}
+>>>>>>> 0bb643d0761e1c2e59c897d754daf862b9f0f056
 }
