@@ -77,7 +77,6 @@
 	}
 
 	#menu li:hover {
-<<<<<<< .merge_file_xdFs93
         transform: none;
         background: none;
     }
@@ -150,7 +149,7 @@
 	    margin-top: 20px;
 	    margin-bottom: 0;
     }
-=======
+	#menu li:hover {
 		transform: none;
 		background: none;
 	}
@@ -237,7 +236,7 @@
 		margin-bottom: 0;
 		background: red;
 	}
->>>>>>> .merge_file_zrtLjD
+
 
 	/*RAVCERTIFIKAT SIDEN HERUNDER -----------------*/
 	#certifikat_text_cnt {
@@ -254,14 +253,14 @@
 		max-width: 768px;
 		margin-bottom: 40px;
 	}
-<<<<<<< .merge_file_xdFs93
+
 	.wpgmp_map_container {
 		width: 100%;
 		margin-left: 0;
 	}
 	.wpcf7-form {
 		width: 100%;
-=======
+	}
 
 	#kaesehandle {
 		max-width: 302px;
@@ -371,6 +370,6 @@
 		width: 172px;
 		height: 200px;
 		background-size: cover;
->>>>>>> .merge_file_zrtLjD
+
 	}
 }
