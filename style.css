@@ -14,6 +14,11 @@ Text Domain: ravfestival_theme
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 
+@font-face {
+    font-family: futuraMedium;
+    src: url('font/Futura-Medium.ttf');
+}
+
 /* DESKTOP */
 
 body {
@@ -150,7 +155,7 @@ p {
     background-size: cover;
 }
 #headertext_cnt {
-	font-family: 'Futura', sans-serif;
+	font-family: futuraMedium;
 	font-size: 48px;
     height: 100px;
     width: 100%;
@@ -239,7 +244,7 @@ p {
 }
 
 #second_left_cnt h1 {
-	font-family: 'Futura', sans-serif;
+	font-family: futuraMedium;
 	font-size: 24px;	
 	line-height: 43px;
 	margin-bottom: 20px;
@@ -258,7 +263,7 @@ p {
 
     }
 #bottom_circle_cnt {
-	font-family: 'Futura', sans-serif;
+	font-family: futuraMedium;
     position: relative;
     float: left;
     width: 90%;
@@ -309,7 +314,7 @@ p {
 }
 
 .news_text_cnt {
-	font-family: 'Futura', sans-serif;
+	font-family: futuraMedium;
 	margin-top: 5%;
     width: 100%;
     min-height: 136px;
@@ -542,7 +547,7 @@ p {
 }
 
 
-/*FOOTER-------------*/
+/*-------------- FOOTER -------------*/
 #footer {
     height: 150px;
     background-color: #333333;
@@ -558,17 +563,19 @@ p {
     overflow: hidden;
 }
 .custom_logo {
-    height: 60px;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
 }
 .custom_logo img {
-    height: 40px;
+    height: 100px;
     padding-top: 15px;
-    padding-left: 10px;
+    margin-left: -13px;
 }
 
 #content h2.entry-title,
 #content h2.entry-title a {
-	font-family: 'Futura', sans-serif;
+	font-family: futuraMedium;
     text-decoration: none;
     color: #f7f7f7;
     font-size: 24px;
@@ -611,4 +618,14 @@ p {
 .entry-meta {
 	font-size: 10px;
 	margin-bottom: 10px;
+}
+
+.index-header {
+	width: 90%;
+	margin: 40px auto;
+}
+
+.index-header h1.index-title {
+	font-family: futuraMedium;
+	font-size: 24px;
 }
