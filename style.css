@@ -26,6 +26,7 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 	background-color: #f7f7f7;
+	color: #616e7a;
 }
 
 @keyframes rotate_sliber {
@@ -627,5 +628,5 @@ p {
 
 .index-header h1.index-title {
 	font-family: futuraMedium;
-	font-size: 24px;
+	font-size: 36px;
 }

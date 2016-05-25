@@ -98,10 +98,12 @@
     #content h2.entry-title a {
     	font-family: 'Futura', sans-serif;
 	    text-decoration: none;
-	    color: #333333;
-	    font-size: 24px;
-	    line-height: 30px;
-	    margin-bottom: 20px;
+	    color: #f7f7f7;
+	    font-size: 14px;
+	    line-height: 28px;
+    }
+    .blog .hentry header {
+	    min-height: 96px;
     }
     .blog .wp-post-image {
 	    width: 50%;
@@ -119,5 +121,9 @@
 	    padding: 15px;
 	    color: #f7f7f7;
 	    margin-top: 20px;
+    }
+    .index-header {
+	    margin-top: 20px;
+	    margin-bottom: 0;
     }
 }
