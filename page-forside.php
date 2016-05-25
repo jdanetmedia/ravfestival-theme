@@ -84,6 +84,11 @@
 		<?php endwhile; ?>
 	</div>
 </div>
+<div id="nyhedsbrev_cnt">
 
+    <div id="email_cnt">Email</div>
+    <div id="telefon_cnt">Telefon</div>
+    <div id="button_cnt">Button</div>
+</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -1,9 +1,22 @@
 /* TABLET STYLING */
 @media screen and (max-width: 768px) {
+	@keyframes net_translate_tablet {
+		0% {
+			transform: translate(-205px, 0px);
+		}
+		50% {
+			transform: translate(0px, 0px);
+		}
+		100% {
+			transform: translate(-205px, 0px);
+		}
+	}
+
 	.toggle_container {
 		width: 100%;
 		height: 60px;
 	}
+
 	.hamburger {
 		width: 60px;
 		height: 60px;
@@ -12,49 +25,59 @@
 		z-index: 6000;
 		cursor: pointer;
 	}
+
 	.hamburger .line {
 		width: 30px;
 		height: 1px;
 		background-color: #333333;
 		position: absolute;
 	}
+
 	.hamburger .line1 {
 		top: 20px;
 		left: 15px;
 	}
+
 	.hamburger .line2 {
 		top: 30px;
 		left: 15px;
 	}
+
 	.hamburger .line3 {
 		top: 40px;
 		left: 15px;
 	}
+
 	.menu-main-menu-container {
 		background: #f7f7f7;
 		display: none;
 		position: relative;
 		z-index: 7000;
 	}
+
 	#menu {
 		width: 100%;
 		height: auto;
 		top: 0;
 		margin-top: 0;
 	}
+
 	#menu li {
 		background: none;
 		margin: 0;
 		padding: 25px;
 		padding-left: 40px;
 	}
+
 	#menu li a {
 		color: #333333;
 		float: none;
 		top: 0;
 		display: block;
 	}
+
 	#menu li:hover {
+<<<<<<< .merge_file_xdFs93
         transform: none;
         background: none;
     }
@@ -127,16 +150,227 @@
 	    margin-top: 20px;
 	    margin-bottom: 0;
     }
+=======
+		transform: none;
+		background: none;
+	}
+
+	#menu li:hover a {
+		color: #333333;
+		text-decoration: none;
+		transform: none;
+		display: block;
+	}
+
+	.white_bg {
+		background-color: #f7f7f7;
+	}
+
+	.circle_cnt {
+		width: 50%;
+		margin: 20px 0;
+		box-sizing: border-box;
+	}
+
+	.circle_cnt img {
+		padding: 0 3%;
+		box-sizing: border-box;
+	}
+
+	.news_text_cnt {
+		min-height: 96px;
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	#content {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 40px;
+	}
+
+	.custom_logo {
+		height: 60px;
+	}
+
+	.custom_logo img {
+		height: 40px;
+		padding-top: 15px;
+		padding-left: 10px;
+	}
+
+	#content h2.entry-title,
+	#content h2.entry-title a {
+		font-family: 'Futura', sans-serif;
+		text-decoration: none;
+		color: #f7f7f7;
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	.blog .hentry header {
+		min-height: 96px;
+	}
+
+	.blog .wp-post-image {
+		width: 50%;
+		float: right;
+		margin: 0 0 20px 20px;
+	}
+
+	.blog .hentry {
+		margin-bottom: 40px;
+	}
+
+	.more-link {
+		display: block;
+		width: 63px;
+		background-color: rgba(255, 168, 27, 1);
+		text-decoration: none;
+		padding: 15px;
+		color: #f7f7f7;
+		margin-top: 20px;
+	}
+
+	.index-header {
+		margin-top: 20px;
+		margin-bottom: 0;
+		background: red;
+	}
+>>>>>>> .merge_file_zrtLjD
 
 	/*RAVCERTIFIKAT SIDEN HERUNDER -----------------*/
+	#certifikat_text_cnt {
+		padding: 0;
+	}
+
 	#certifikat_second_cnt {
 		max-width: 768px;
+		height: 260px;
+		box-sizing: border-box;
 	}
+
+	#byg_text {
+		max-width: 768px;
+		margin-bottom: 40px;
+	}
+<<<<<<< .merge_file_xdFs93
 	.wpgmp_map_container {
 		width: 100%;
 		margin-left: 0;
 	}
 	.wpcf7-form {
 		width: 100%;
+=======
+
+	#kaesehandle {
+		max-width: 302px;
+		background-position: center;
+	}
+
+	#byg_cnt {
+		position: relative;
+		max-width: 768px;
+		padding: 0 40px;
+		box-sizing: border-box;
+		top: -100px;
+	}
+
+	#kaesenetholder {
+		background-position: center;
+	}
+
+	#kaesenet {
+		-webkit-animation: net_translate_tablet 8s;
+		animation: net_translate_tablet 8s;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		background-position: center;
+	}
+
+	#cirtifikat_third_cnt {
+		height: 300px;
+	}
+
+	#third_cnt {
+		max-width: 768px;
+		height: 300px;
+		padding: 0 40px;
+		box-sizing: border-box;
+	}
+
+	#drengkigger {
+		height: 300px;
+		width: 300px;
+		background-size: cover;
+	}
+
+	#third_text {
+		max-width: 288px;
+		height: 300px;
+	}
+
+	#slib_text {
+		max-width: 768px;
+		height: 300px;
+	}
+
+	.picture_cnt {
+		max-width: 768px;
+		height: 300px;
+		padding: 0 40px;
+		box-sizing: border-box;
+	}
+
+	#sliber_text_holder {
+		width: 163px;
+	}
+
+	#sliber {
+		width: 300px;
+		height: 300px;
+		background-size: cover;
+	}
+
+	#ravhaand {
+		height: 300px;
+		width: 225px;
+		background-size: cover;
+	}
+
+	#glans {
+		left: 443px;
+		top: 120px;
+	}
+
+	#glans2 {
+		left: 443px;
+		top: 160px;
+	}
+
+	#certifikat_fifth_cnt {
+		max-width: 768px;
+		height: 300px;
+	}
+
+	#smykke_cnt {
+		max-width: 768px;
+	}
+
+	#smykke {
+		width: 768px;
+		height: 240px;
+		background-size: cover;
+	}
+
+	#ravsmykkeglow {
+		left: 324px;
+		top: -210px;
+	}
+	#diplom {
+		width: 172px;
+		height: 200px;
+		background-size: cover;
+>>>>>>> .merge_file_zrtLjD
 	}
 }
