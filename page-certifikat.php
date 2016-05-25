@@ -10,7 +10,9 @@
 
 <?php get_header(); ?>
 <div id="certifikat_first_cnt">
-
+<div id="certifikat_pic_cnt">
+	<div id="diplom"></div>
+</div>
 	<div id="certifikat_text_cnt">
 		<section id="content" role="main">
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

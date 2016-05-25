@@ -82,7 +82,7 @@ p {
         height: 20px;
         background-color: #616e7a;
         margin-bottom: 20px;
-        transition: all 0.5s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
     #menu li a {
         color: transparent;
@@ -90,15 +90,19 @@ p {
         top: 2px;
         text-decoration: none;
         white-space: nowrap;
-        transition: all 0.5s ease-in-out;
+        transition: all 0.3s ease-in-out;
         float: right;
     }
     #menu li:hover {
         transform: translate(60px);
         background-color: #95b9cc;
     }
+    #menu li:hover:nth-child(6) {
+        transform: translate(60px);
+        background-color: #f7a625;
+    }
     #menu li:hover a {
-        color: red;
+        color: #616e7a;
         text-decoration: none;
         transform: translate(-80px);
         display: block;
@@ -110,7 +114,7 @@ p {
         background-color: #95b9cc!important;
     }
     .current-menu-item:nth-child(6) {
-        background-color: red!important;
+        background-color: #f7a625!important;
     }
 
 
@@ -337,16 +341,29 @@ p {
 
 #certifikat_first_cnt {
     width: 100%;
-    min-height: 1px;
-    background-color: #f7f7f7;
+    height: 430px;
+    background-color: #9bbacd;
 }
 #certifikat_text_cnt {
     width: 50%;
-    height: 600px;
+    height: 430px;
     background-color: #cbcbcb;
     float: right;
     padding: 20px;
     box-sizing: border-box;
+}
+#certifikat_pic_cnt {
+    margin-top: 20px;
+    width: 50%;
+    height: 420px;
+    float: left;
+}
+#diplom {
+    width: 344px;
+    height: 420px;
+    margin: 0 auto;
+    background-image: url('images/diplomikon.png');
+    background-repeat: no-repeat;
 }
 #byg_text {
     width: 960px;
@@ -359,7 +376,6 @@ p {
     width: 960px;
     height: 100%;
     margin: 0 auto;
-    padding-top: 50px;
     box-sizing: border-box;
 }
 #kaesehandle {
