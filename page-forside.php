@@ -36,6 +36,10 @@
                             </div>
                         </div>
 		</div>
+		<div id="scroll_btn">
+			<div class="scroll_txt">Scroll</div>
+			<img src="<?php bloginfo('template_directory'); ?>/images/scroll_arr.png" class="scroll_arr" />
+		</div>
 	</div>
 </div>
 <div id="front_page_cnt2">

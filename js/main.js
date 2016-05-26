@@ -13,6 +13,12 @@ $("#paamind_btn").click(function() {
     }, 500);
 });
 
+$("#scroll_btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#front_page_cnt2").offset().top
+    }, 500);
+});
+
 function ravslibeffekt() {
     var a = document.getElementById("sliber");
     a.style.animation = "rotate_sliber 0.2s";
