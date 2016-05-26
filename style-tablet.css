@@ -101,7 +101,7 @@
 	    box-sizing: border-box;
     }
     .news_text_cnt {
-	    min-height: 96px;
+	    /* min-height: 96px; */
 	    font-size: 14px;
 	    line-height: 28px;
     }
@@ -131,7 +131,7 @@
 	    line-height: 28px;
     }
     .blog .hentry header {
-	    min-height: 96px;
+	    /* min-height: 96px; */
 	    bottom: 20px;
     }
     .blog .wp-post-image {

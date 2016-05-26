@@ -711,6 +711,7 @@ strong {
 .index-header h1.index-title {
 	font-family: futuraMedium;
 	font-size: 36px;
+	line-height: 40px;
 }
 .video_section {
 	width: 48%;
