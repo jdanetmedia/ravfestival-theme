@@ -65,6 +65,13 @@ body {
     50% {transform: translate(0px,0px);}
     100% {transform: translate(-432px,0px);}
 }
+
+@keyframes scrollhover {
+    0% {bottom: 40px;}
+    50% {bottom: 50px;}
+    100% {bottom: 40px;}
+}
+
 p {
 	font-size: 14px;
 	line-height: 28px;
@@ -246,6 +253,10 @@ p {
 	font-size: 16px;
 	margin-left: -30px;
 	cursor: pointer;
+	-webkit-animation: scrollhover 1s;
+    animation: scrollhover 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
 #scroll_btn .scroll_arr {
