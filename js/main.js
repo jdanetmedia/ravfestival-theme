@@ -14,9 +14,16 @@ $("#paamind_btn").click(function() {
 });
 
 $("#scroll_btn").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#front_page_cnt2").offset().top
-    }, 500);
+    if ($(window).width() < 768) {
+	   $('html, body').animate({
+        	scrollTop: $("#front_page_cnt2").offset().top
+		}, 500);
+	}
+	else {
+	   	$('html, body').animate({
+        	scrollTop: $("#front_page_cnt2").offset().top + -80
+		}, 500);
+	}
 });
 
 function ravslibeffekt() {
