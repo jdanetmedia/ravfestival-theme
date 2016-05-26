@@ -33,6 +33,10 @@ body {
 	color: #616e7a;
 }
 
+a {
+	color: #616e7a;
+}
+
 @keyframes rotate_sliber {
     100% {transform: rotate(360deg);}
 }
@@ -87,14 +91,6 @@ strong {
 	font-family: futuraMedium;
 	text-align: center;
 	margin-bottom: 10px;
-}
-
-.menu_label {
-	display: none;
-}
-
-.home .menu_label {
-	display: block;
 }
 
 #menu {
@@ -617,12 +613,6 @@ strong {
     display: none;
 }
 
-/*-------------- FOOTER -------------*/
-#footer {
-    height: 150px;
-    background-color: #333333;
-}
-
 /* NEWSFEED SIDE */
 
 #content {
@@ -777,15 +767,15 @@ strong {
 	overflow: hidden;
 }
 
-.home .wpcf7-form,
-.single .wpcf7-form,
-.page .wpcf7-form {
+.home #nyhedsbrev_cnt .wpcf7-form,
+.single #nyhedsbrev_cnt .wpcf7-form,
+.page #nyhedsbrev_cnt .wpcf7-form {
 	width: 100%;
 }
 
-.home .wpcf7,
-.single .wpcf7,
-.page .wpcf7 {
+.home #nyhedsbrev_cnt .wpcf7,
+.single #nyhedsbrev_cnt .wpcf7,
+.page #nyhedsbrev_cnt .wpcf7 {
 	width: 70%;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -819,8 +809,8 @@ strong {
 	text-indent: 0;
 	-webkit-appearance: none;
 }
-div.wpcf7-validation-errors,
-div.wpcf7-mail-sent-ok {
+#nyhedsbrev_cnt div.wpcf7-validation-errors,
+#nyhedsbrev_cnt div.wpcf7-mail-sent-ok {
 	border: none!important;
 	clear: both!important;
 	line-height: 50px!important;
@@ -833,4 +823,54 @@ div.wpcf7-mail-sent-ok {
 	float: right;
 	margin-left: 20px;
 	margin-bottom: 20px;
+}
+
+.fb-like {
+	margin: 20px 0;
+}
+
+/* --------------FOOTER------------- */
+
+footer {
+	padding: 40px 0;
+	min-height: 1px;
+	overflow: hidden;
+}
+
+.footer_widget_area {
+	width: 90%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.widget-container {
+	width: 30%;
+	float: left;
+	margin-right: 3.3333%;
+	box-sizing: border-box;
+	min-height: 1px;
+	overflow: hidden;
+}
+
+.widget-container .widget-title {
+	font-size: 24px;
+	font-family: futuraMedium;
+	margin-bottom: 20px;
+}
+
+.widget-container:last-child {
+	margin-right: 0;
+}
+
+.widget-container ul li {
+	margin: 15px 0;
+}
+
+.widget-container ul li:first-child {
+	margin: 0 0 15px 0;
+}
+
+.widget-container ul li a {
+	text-decoration: none;
+	color: #616e7a;
 }

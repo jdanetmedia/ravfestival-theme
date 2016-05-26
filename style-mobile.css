@@ -13,7 +13,8 @@
 	#content {
 		padding: 10px;
 	}
-	.single #content {
+	.single #content,
+	.page #content {
 		padding: 30px;
 	}
 	.blog #content {
@@ -108,7 +109,14 @@
 		padding: 30px;
 	}
 
-
+	.page-id-33 .wpcf7 {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	#wpcf7-f180-o2 {
+		padding: 0 30px;
+		box-sizing: border-box;
+	}
 
 
 	/*RAV CERTIFIKAT*/
@@ -158,6 +166,33 @@
 		left: 274px;
 		top: -190px;
 	}
+	/* --------------FOOTER------------- */
 
+	.footer_widget_area {
+		width: 100%;
+		padding: 30px;
+		margin: 0 auto;
+	}
+	
+	.widget-container {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	/* --------------NYHEDSBREV--------------- */
+	.home #nyhedsbrev_cnt .wpcf7,
+	.single #nyhedsbrev_cnt .wpcf7,
+	.page #nyhedsbrev_cnt .wpcf7 {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 40px;
+		padding: 0 30px;
+		min-height: 1px;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
 }
 
