@@ -79,6 +79,7 @@
 	}
 	.blog .hentry header {
 		height: auto;
+		bottom: 0;
 	}
 	.blog .wp-post-image {
 		margin: 0;
@@ -182,6 +183,7 @@
 		margin-bottom: 20px;
 	}
 	/* --------------NYHEDSBREV--------------- */
+	.blog #nyhedsbrev_cnt .wpcf7,
 	.home #nyhedsbrev_cnt .wpcf7,
 	.single #nyhedsbrev_cnt .wpcf7,
 	.page #nyhedsbrev_cnt .wpcf7 {

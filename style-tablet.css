@@ -132,6 +132,7 @@
     }
     .blog .hentry header {
 	    min-height: 96px;
+	    bottom: 20px;
     }
     .blog .wp-post-image {
 	    width: 50%;

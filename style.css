@@ -686,7 +686,7 @@ strong {
 	line-height: 48px;
 	padding: 20px;
 	box-sizing: border-box;
-	bottom: 0;
+	bottom: 9px;
 	left: 0;
 }
 .more-link {
@@ -789,12 +789,14 @@ strong {
 	overflow: hidden;
 }
 
+.blog #nyhedsbrev_cnt .wpcf7-form,
 .home #nyhedsbrev_cnt .wpcf7-form,
 .single #nyhedsbrev_cnt .wpcf7-form,
 .page #nyhedsbrev_cnt .wpcf7-form {
 	width: 100%;
 }
 
+.blog #nyhedsbrev_cnt .wpcf7,
 .home #nyhedsbrev_cnt .wpcf7,
 .single #nyhedsbrev_cnt .wpcf7,
 .page #nyhedsbrev_cnt .wpcf7 {
