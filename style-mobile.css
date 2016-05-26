@@ -7,6 +7,9 @@
 	.custom_logo img {
 		padding-left: 18px;
 	}
+	.smalltext {
+		font-size: 12px;
+	}
 	#content {
 		padding: 10px;
 	}
