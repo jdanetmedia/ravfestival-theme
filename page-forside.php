@@ -68,10 +68,27 @@
 
 	</div>
 	<div id="bottom_circle_cnt">
-		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/program.png" class="icons"/><div class="circle_text">Program for Ravfestival</div></div>
-		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/certifikat.png" class="icons" /><div class="circle_text">Bliv certificeret ravjæger</div></div>
-		<div id="paamind_btn" class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/reminder.png" class="icons"/><div class="circle_text">Få en påmindelse</div></div>
-		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/galleri.png" class="icons"/><div class="circle_text">Billeder / Video</div></div>
+		<div class="circle_cnt">
+			<a href="/program-for-ravfestival/">
+				<img src="<?php bloginfo('template_directory'); ?>/images/program.png" class="icons"/>
+				<div class="circle_text">Program for Ravfestival</div>
+			</a>
+		</div>
+		<div class="circle_cnt">
+			<a href="/rav-bevis/">
+				<img src="<?php bloginfo('template_directory'); ?>/images/certifikat.png" class="icons" />
+				<div class="circle_text">Få et ravjæger bevis</div></div>
+			</a>		
+		<div id="paamind_btn" class="circle_cnt">
+			<img src="<?php bloginfo('template_directory'); ?>/images/reminder.png" class="icons"/>
+			<div class="circle_text">Få en påmindelse</div>
+		</div>
+		<div class="circle_cnt">
+			<a href="/billeder-video/">
+				<img src="<?php bloginfo('template_directory'); ?>/images/galleri.png" class="icons"/>
+				<div class="circle_text">Billeder / Video</div>
+			</a>
+		</div>
 	</div>
 </div>
 

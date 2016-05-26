@@ -331,6 +331,9 @@ strong {
     margin-right: 3.33%;
     text-align: center;
 }
+.circle_cnt a {
+	text-decoration: none;
+}
 .circle_cnt:last-child {
     margin-right: 0;
 }
