@@ -22,6 +22,7 @@
 		<div class="line line3"></div>
 	</div>
 </div>
+<div class="menu_label">Menu</div>
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 </nav>
 </header>

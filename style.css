@@ -76,16 +76,35 @@ p {
 	font-size: 14px;
 	line-height: 28px;
 	font-weight: 300;
+	margin: 10px 0;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.menu_label {
+	font-family: futuraMedium;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.menu_label {
+	display: none;
+}
+
+.home .menu_label {
+	display: block;
 }
 
 #menu {
     width: 60px;
-    height: 200px;
+    height: 306px;
     position: fixed;
     right: 0;
     z-index: 2;
     top: 50%;
-    margin-top: -100px;
+    margin-top: -143px;
 }
     #menu #search {
         display: none;
@@ -801,4 +820,13 @@ div.wpcf7-mail-sent-ok {
 	border: none!important;
 	clear: both!important;
 	line-height: 50px!important;
+}
+
+/*-------------- ARTIKLER ---------------*/
+
+.single .wp-post-image {
+	width: 50%;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
