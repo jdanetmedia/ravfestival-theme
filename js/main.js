@@ -22,6 +22,12 @@ $("#paamind_btn").click(function() {
     }, 500);
 });
 
+$(".paamind_link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#nyhedsbrev_cnt").offset().top
+    }, 500);
+});
+
 $("#scroll_btn").click(function() {
     if ($(window).width() < 768) {
 	   $('html, body').animate({
