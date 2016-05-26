@@ -15,5 +15,8 @@
 </article>
 <?php endwhile; endif; ?>
 </section>
-<?php get_sidebar(); ?>
+<div id="nyhedsbrev_cnt">
+	<div class="paamind">Få en påmindelse før Ravfestival</div>
+	<?php echo do_shortcode('[contact-form-7 id="180" title="Nyhedsbrev"]'); ?>
+</div>
 <?php get_footer(); ?>
