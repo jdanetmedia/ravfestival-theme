@@ -194,5 +194,16 @@
 		overflow: hidden;
 		box-sizing: border-box;
 	}
+	
+	/* PROGRAM */
+
+	.program {
+		-moz-column-count: 1;
+		-moz-column-gap: 40px;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 40px;
+		column-count: 1;
+		column-gap: 40px;
+	}
 }
 

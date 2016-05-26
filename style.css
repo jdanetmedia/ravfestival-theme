@@ -31,6 +31,9 @@ body {
 	overflow-x: hidden;
 	background-color: #f7f7f7;
 	color: #616e7a;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 300;
 }
 
 a {
@@ -736,6 +739,7 @@ strong {
 	border: none;
 	font-size: 14px;
 	resize: none;
+	box-sizing: border-box;
 }
 .wpcf7-form input {
 	text-indent: 20px;
@@ -857,6 +861,7 @@ footer {
 
 .widget-container .widget-title {
 	font-size: 24px;
+	line-height: 30px;
 	font-family: futuraMedium;
 	margin-bottom: 20px;
 }
@@ -876,4 +881,42 @@ footer {
 .widget-container ul li a {
 	text-decoration: none;
 	color: #616e7a;
+}
+
+/* PROGRAM */
+
+.fredag-header,
+.lordag-header,
+.sondag-header {
+	width: 100%;
+	height: 60px;
+	background-color: #f7a625;
+	color: #f7f7f7;
+	font-family: futuraMedium;
+	font-size: 24px;
+	margin-bottom: 20px;
+	padding: 18px;
+	box-sizing: border-box;
+}
+
+.program {
+	-moz-column-count: 3;
+	-moz-column-gap: 40px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
+	column-count: 3;
+	column-gap: 40px;
+	display: none;
+}
+
+.programpunkt {
+	-webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dedede;
+}
+
+.programpunkt:first-child {
+	border-top: 1px solid #dedede;
 }

@@ -5,6 +5,15 @@ $(document).ready(function() {
     });
     $("body").css("display", "none");
     $("body").fadeIn(1000);
+    $(".fredag-header").click(function(){
+		$(this).next(".program").slideToggle(200);
+	});
+	$(".lordag-header").click(function(){
+		$(this).next(".program").slideToggle(200);
+	});
+	$(".sondag-header").click(function(){
+		$(this).next(".program").slideToggle(200);
+	});
 });
 
 $("#paamind_btn").click(function() {
