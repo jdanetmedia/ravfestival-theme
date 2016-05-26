@@ -5,11 +5,14 @@ $(document).ready(function() {
     });
     $("body").css("display", "none");
     $("body").fadeIn(1000);
-
-    $(".circle_cnt:nth-child(3)").click(function() {
-        $('html,body').animate({ scrollTop: 3000 }, 2000);
-    });
 });
+
+$("#paamind_btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#nyhedsbrev_cnt").offset().top
+    }, 500);
+});
+
 function ravslibeffekt() {
     var a = document.getElementById("sliber");
     a.style.animation = "rotate_sliber 0.2s";

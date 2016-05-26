@@ -370,4 +370,34 @@
 		background-size: cover;
 
 	}
+	/* NYHEDSBREV FORSIDE */
+	
+	#nyhedsbrev_cnt {
+		text-align: left;
+	}
+	
+	.home .wpcf7 {
+		width: 100%;
+		padding: 0 30px;
+		box-sizing: border-box;
+	}
+	#nyhedsbrev_cnt .nl_mail,
+	#nyhedsbrev_cnt .nl_phone {
+		width: 100%;
+		margin-right: 0;
+		float: none;
+		margin-bottom: 10px;
+	}
+	#nyhedsbrev_cnt p {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#nyhedsbrev_cnt input[type="submit"] {
+		width: 100%!important;
+	}
+	.paamind {
+		font-size: 22px;
+		padding: 0 30px;
+	}
 }

@@ -66,7 +66,7 @@
 	<div id="bottom_circle_cnt">
 		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/program.png" class="icons"/><div class="circle_text">Program for Ravfestival</div></div>
 		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/certifikat.png" class="icons" /><div class="circle_text">Bliv certificeret ravjæger</div></div>
-		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/reminder.png" class="icons"/><div class="circle_text">Få en påmindelse</div></div>
+		<div id="paamind_btn" class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/reminder.png" class="icons"/><div class="circle_text">Få en påmindelse</div></div>
 		<div class="circle_cnt"><img src="<?php bloginfo('template_directory'); ?>/images/galleri.png" class="icons"/><div class="circle_text">Billeder / Video</div></div>
 	</div>
 </div>
@@ -85,10 +85,7 @@
 	</div>
 </div>
 <div id="nyhedsbrev_cnt">
-
-    <div id="email_cnt">Email</div>
-    <div id="telefon_cnt">Telefon</div>
-    <div id="button_cnt">Button</div>
+	<div class="paamind">Få en påmindelse før Ravfestival</div>
+	<?php echo do_shortcode('[contact-form-7 id="180" title="Nyhedsbrev"]'); ?>
 </div>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
