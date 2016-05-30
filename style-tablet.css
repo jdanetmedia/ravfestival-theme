@@ -30,7 +30,7 @@
 
 	.hamburger .line {
 		width: 30px;
-		height: 1px;
+		height: 2px;
 		background-color: #616e7a;
 		position: absolute;
 	}
