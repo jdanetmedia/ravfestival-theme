@@ -14,6 +14,12 @@ $(document).ready(function() {
 	$(".sondag-header").click(function(){
 		$(this).next(".program").slideToggle(200);
 	});
+	if ($(window).width() < 667) {
+	   $("a.bevis").attr("href", "/ravjaeger-bevis-mobile/");
+	}
+	else {
+	   $("a.bevis").attr("href", "/rav-bevis/");
+	}
 });
 
 $("#paamind_btn").click(function() {

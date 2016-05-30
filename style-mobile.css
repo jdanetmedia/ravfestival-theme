@@ -207,5 +207,59 @@
 		column-count: 1;
 		column-gap: 40px;
 	}
+	#menu-item-252 {
+		display: block;
+	}
+	#menu-item-68 {
+		display: none;
+	}
+	/* MOBIL RAVBEVIS */
+	.page-id-241 .wp-image-243 {
+		width: 50%;
+		height: auto;
+		float: left;
+		margin: 5px 20px 20px 0;
+	}
+	.page-id-241 .wp-image-246 {
+		width: 100%;
+		height: auto;
+	}
+	.hvid_bg {
+		margin: 20px 0;
+	}
+	.sand_bg {
+		background-color: rgb(220, 217, 203);
+		min-height: 1px;
+		overflow: hidden;
+		box-sizing: border-box;
+		padding: 0 20px;
+		margin: 20px 0;
+	}
+	.page-id-241 .wp-image-247 {
+		width: 50%;
+		height: auto;
+		float: left;
+		margin: 0 20px 0 0;
+	}
+	.page-id-241 .wp-image-248 {
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 0 20px 0 0;
+	}
+	.blaa_bg {
+		background-color: #9CB9CD;
+		min-height: 1px;
+		overflow: hidden;
+		box-sizing: border-box;
+		padding: 10px 20px;
+		margin: 20px 0;
+	}
+	.page-id-241 .wp-image-249 {
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 0 20px 0 0;
+	}
 }
 

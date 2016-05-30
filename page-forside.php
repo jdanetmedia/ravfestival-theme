@@ -77,7 +77,7 @@
 			</a>
 		</div>
 		<div class="circle_cnt">
-			<a href="/rav-bevis/">
+			<a class="bevis" href="/rav-bevis/">
 				<img src="<?php bloginfo('template_directory'); ?>/images/certifikat.png" class="icons" />
 				<div class="circle_text">Få et ravjæger bevis</div></div>
 			</a>		
